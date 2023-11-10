@@ -16,7 +16,7 @@ const router = createRouter({
         },
         {
             path: '/code',
-            name: 'Код',
+            name: 'Примеры кода',
             component: CodeView,
         },
         {
