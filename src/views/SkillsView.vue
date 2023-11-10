@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div class="categories">
-        Карточки с разделами сайта
+    <div class="subheader">
+        Навыки
     </div>
 </template>
 

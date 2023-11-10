@@ -1,3 +1,21 @@
+* {
+    --base-background-color: #efefef;
+    --accent-background-color: #c5d7ef;
+    --contrast-background-color: #ffffff;
+    --accent-color: #ababd8;
+    --contrast-accent-color: #e6beb9;
+    --base-text-color: #333333;
+
+    --base-margin: 10px;
+    --base-gap: 20px;
+    --base-padding: 10px 20px;
+    --base-text-size: 24px;
+    --header-text-size: 40px;
+    --header-font-weight: 700;
+    --base-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+    --base-border-radius: 10px;
+}
+
 *,
 *::before,
 *::after {
@@ -8,7 +26,7 @@
 
 body {
     min-height: 100vh;
-    line-height: 1.6;
+    line-height: 1.2;
     font-family:
         Inter,
         -apple-system,
@@ -22,8 +40,10 @@ body {
         "Droid Sans",
         "Helvetica Neue",
         sans-serif;
-    font-size: 15px;
+    font-size: var(--base-text-size);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: var(--base-background-color);
+    color: var(--base-text-color);
 }

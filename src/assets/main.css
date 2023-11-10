@@ -1,1 +1,41 @@
 @import "./base.css";
+
+#app {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--contrast-background-color);
+    border-radius: var(--base-border-radius);
+    padding: 20px;
+    margin-bottom: var(--base-margin);
+    box-shadow: var(--base-shadow);
+}
+
+.button {
+    border-radius: var(--base-border-radius);
+    background-color: var(--accent-color);
+    font-size: 15px;
+    padding: var(--base-padding);
+    text-decoration: none;
+    color: var(--base-text-color);
+    font-weight: 500;
+    transition: transform .3s ease;
+    box-shadow: 0px 2px 1px 1px #8f8fcc;
+}
+
+.button:hover {
+    transform: translate(0px, -4px);
+}
+
+.header {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subheader {
+    font-size: 40px;
+    font-weight: 500;
+}
